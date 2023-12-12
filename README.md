@@ -18,6 +18,10 @@ Here are some ideas to get you started:
 ## harvesit
 - know who produces your food
 
+### What
+
+### Why
+
 - Solving a real problem for your user - rebuild local economy
 - Fall in love with a problem. Specific
 
