@@ -162,7 +162,7 @@ graph LR
 
 1. Writing self-documenting code boosts team velocity/morale and reduces costs. Carefully structure and comment code to express intent. This facilitates future maintenance and evolution to meet changing business needs.
 
-2. Modular architecture enables flexible enhancement. Decompose software around business capabilities with stable interfaces. Optimize initially for current needs without overengineering. This balances simplicity now with strategic flexibility for future change, sustaining operational manageability even as modules multiply.
+2. Modular architecture enables flexible enhancement and scalability. Decompose software around business capabilities with stable interfaces that can scale independently. Optimize for current needs without overengineering. Balance meeting today's requirements with the ability to enhance later. Keep complexity manageable as capabilities expand over time.
 
 3. Unify platforms/languages to maximize developer throughput. Eliminate context switching to enable deeper skill levels. This force multiplication means a unified team achieves greater velocity on strategic projects.
 
