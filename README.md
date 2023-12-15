@@ -8,7 +8,7 @@ If we can transform how towns are fed, we can transform our society. By combinin
 # 🌱 Harvesit App
 Harvesit, which works similarly to DoorDash and Airbnb, seeks to revolutionise local food supply chains and agriculture through its innovative digital platform.
 
-It connects growers, consumers, and delivery providers in a community-centric ecosystem. Growers can sell or trade their produce, benefiting from Smartphone, AI and IoT technologies for enhanced crop management. Consumers enjoy access to fresh, local produce with the option to buy or trade, fostering a sustainable local food economy. Harvesit stands out for its integration of advanced technology with traditional farming practices, promoting sustainability, community engagement, and economic independence at a local level.
+It connects growers, consumers, and delivery providers in a community-centric ecosystem. Growers can sell or trade their produce, benefiting from mobile App, AI and IoT technologies for enhanced crop management. Consumers enjoy access to fresh, local produce with the option to buy or trade, fostering a sustainable local food economy. Harvesit stands out for its integration of advanced technology with traditional farming practices, promoting sustainability, community engagement, and economic independence at a local level.
 
 # ✨ Features (and suggestions)
 
