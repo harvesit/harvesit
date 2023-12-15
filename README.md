@@ -1,11 +1,27 @@
 # 🌱 Harvesit App
-Harvesit, which works similarly to DoorDash and Airbnb, seeks to revolutionise local food supply chains and agriculture through its innovative digital platform.
+Harvesit is a digital platform connecting local food producers directly to community consumers to transform local food systems. Operating like DoorDash and Airbnb, Harvesit brings convenience and modern tech to local agriculture and supply chains.
 
-It connects growers, consumers, and delivery providers in a community-centric ecosystem. Growers can sell or trade their produce, benefiting from mobile App, AI and IoT technologies for enhanced crop management. Consumers enjoy access to fresh, local produce with the option to buy or trade, fostering a sustainable local food economy. Harvesit stands out for its integration of advanced technology with traditional farming practices, promoting sustainability, community engagement, and economic independence at a local level.
+It allows small and large-scale growers to sell produce, benefiting from mobile and IoT tech to boost yields. This includes traditional farms along with backyard gardeners and hobbyists. Consumers enjoy purchasing and trading ultra-fresh, local food while learning about sustainability.
+
+By facilitating commerce across the food ecosystem, Harvesit fosters self-reliant local economies and supplies. It promotes food production as a hobby and supplementary income source, enabling more participation in strengthening the community through transparency and mutually beneficial local trade.
+
+Ultimately, Harvesit intertwines advanced technologies with community-building around local food systems that are nutritious, ecological, and socially-connected. The platform facilitates convenience for modern lifestyles while bringing people closer to nature and each other through sustainable local food.
 
 # :exclamation: The Problem
 
-In today's fast-paced, globalized world, local communities face significant challenges due to the disruptions in local economies and the modern lifestyle. The prevalence of mass-produced, imported food has led to a detachment from local agricultural sources, contributing to economic strain on small-scale growers and a decline in community cohesion. This detachment has also resulted in a diminished understanding and appreciation of sustainable, locally-sourced produce, further eroding the fabric of local food systems. Moreover, the modern lifestyle, characterized by convenience and speed, often overlooks the nutritional and environmental benefits of consuming fresh, locally-grown food. The Harvesit app aims to address these challenges by revitalizing local economies and reconnecting communities with their food sources. By facilitating direct access to locally-grown produce and fostering a culture of sustainable living, Harvesit seeks to restore the balance between modern living and community-based, environmentally conscious food consumption. The platform endeavors to empower local growers, educate consumers, and strengthen community ties, ultimately contributing to a more resilient and self-sufficient local ecosystem.
+In today's fast-paced, globalized world, local communities face significant challenges due to the disruptions in local economies and the modern lifestyle. The prevalence of mass-produced, imported food has led to a detachment from local agricultural sources, contributing to economic strain on small-scale growers and a decline in community cohesion. This detachment has also resulted in a diminished understanding and appreciation of sustainable, locally-sourced produce, further eroding the fabric of local food systems. Moreover, the modern lifestyle, characterized by convenience and speed, often overlooks the nutritional and environmental benefits of consuming fresh, locally-grown food.
+
+# Why?
+
+The importance of strong local economies:
+- Rethinks the notion of endless economic "progress" and globalization as unrealistic and unsustainable goals
+- Localization and self-reliant communities are more resilient and better able to withstand global disruptions
+- Economic activity centered in communities invests back into those areas directly through jobs, infrastructure, services etc.
+- Local systems build interdependencies and connections between community members, improving social fabric
+- Local production and consumption has lower carbon footprint through minimized transport
+- Communities can customize solutions to their unique contexts and needs
+- Supports preservation of cultural heritage, identity, and diversity against homogenous globalized culture
+- Allows prioritization of sustainability, wellbeing, and real quality of life rather than endless, abstract economic growth
 
 # 🔭 Vision
 Harvesit aims to transform local food systems by bringing community members together around fresh, sustainably grown produce. Our platform connects residents directly with area growers - from traditional farmers to backyard gardeners - facilitating commerce and mutual understanding. By making small-scale agriculture economically viable and letting individuals play an active role in their food supply, Harvesit strives to help towns achieve self-sufficiency and environmental resilience.  
