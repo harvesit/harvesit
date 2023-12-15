@@ -4,8 +4,7 @@ Harvesit is an innovative digital platform designed to strengthen and transform 
 
 The platform provides powerful tools to simplify and streamline operations across the local food supply chain, including:
 
-- Listing/ordering app that allows growers to directly showcase and sell their produce to the local community
-- Purchase and trade options to facilitate commerce of locally grown food
+- Listing/ordering app that allows growers to directly showcase and sell or trade their produce to the local community
 - Delivery coordination features to seamlessly transport fresh food from field to table  
 - Crop planning/management functionality leveraging AI and IoT to help improve yields
 
