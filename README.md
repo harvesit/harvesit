@@ -1,4 +1,4 @@
- # 🌱 Harvesit: Revitalizing Local Food Systems
+ # 🌱 Harvesit :iphone: Revitalizing Local Food Systems
 
 Harvesit is a digital platform connecting local food producers directly with community members to transform unsustainable, globalized food systems and revive localized agriculture. 
 
@@ -26,7 +26,7 @@ Additionally, modern lifestyles underappreciate qualities of fresh, sustainably-
 
 Harvesit fosters understanding and participation to address these struggles.
 
-# 🔭 The Vision: Self-Reliant, Sustainable Towns
+# 🔭 The Vision :stars: Self-Reliant, Sustainable Towns
 
 Harvesit aims to transform local food systems by connecting growers and consumers directly. This facilitates commerce but also mutual understanding around sustainable, small-scale agriculture.
 
