@@ -1,40 +1,47 @@
- # 🌱 Harvesit :iphone: A Digital Platform Revitalizing Local Food
- 
-Harvesit is an innovative digital platform designed to strengthen and transform localized food systems by directly connecting growers and consumers. 
+ # 🌱 Harvesit 📱 A Digital Platform Revitalizing Local Fresh Produce
 
-The platform provides powerful tools to simplify and streamline operations across the local food supply chain, including:
+Harvesit is an innovative digital platform designed to strengthen and transform localized fresh produce systems by directly connecting growers and consumers.
 
-- Listing/ordering app that allows growers to directly showcase and sell or trade their produce to the local community
-- Delivery coordination features to seamlessly transport fresh food from field to table  
-- Crop planning/management functionality leveraging AI and IoT to help improve yields
+The platform provides powerful tools to simplify operations across the local fresh produce supply chain, including:
 
-Drawing inspiration from service platforms like Airbnb and DoorDash, Harvesit combines the reach of modern technology with a mission-driven focus on economic, social and environmental revitalization within local food ecosystems.
+* Listing/ordering app that allows growers to directly showcase and sell or trade their fresh produce to the local community
 
-By making community-centric, small-scale agriculture easy, viable and rewarding for both producers and consumers, Harvesit aims to facilitate localized resilience, self-reliance and interconnection.
+* Delivery coordination features to seamlessly transport local fresh produce from field to table  
 
-# :broken_heart: Struggling Local Food Economies
+* Crop planning/management functionality leveraging AI and IoT to help improve fresh produce yields
 
-Local food systems face systemic challenges, including:
 
-- Overreliance on mass-produced import foods, disconnecting communities from regional agricultural networks
-    
-- Economic hardship for small-scale growers
-     
-- Lost opportunities for community cohesion around local food
+Drawing inspiration from platforms like Airbnb and DoorDash, Harvesit combines modern technology with a mission-driven focus on revitalizing local fresh produce ecosystems through economic, social and environmental sustainability. 
 
-Additionally, modern lifestyles underappreciate qualities of fresh, sustainably-sourced local foods:  
+By making small-scale, community-centric agriculture of nutritious local fresh produce easy, viable and rewarding for both producers and consumers, Harvesit aims to facilitate localized resilience, self-reliance and interconnection.
 
-- Nutrition and health benefits  
-      
-- Environmental advantages of shortened supply chains
+
+# 💔 Struggling Local Fresh Food Economies
+
+Local fresh food systems face systemic challenges, including:
+
+* Overreliance on mass-produced import foods, disconnecting communities from regional agricultural networks
+
+* Economic hardship for small-scale local fresh produce growers
+
+* Lost opportunities for community cohesion around nutritious, locally grown fresh produce
+
+
+Additionally, modern lifestyles underappreciate qualities of fresh, sustainably-sourced local fresh produce:
+
+* Nutrition and health benefits
+
+* Environmental advantages of shortened supply chains
+
 
 Harvesit fosters understanding and participation to address these struggles.
 
-# 🔭 The Vision :stars:
+
+# 🔭 The Vision 🌠
 
 **Bring the farm closer**
 
-Harvesit’s vision is to connect each community member to their local food growers by shortening the physical and relational distance from farm to table.  
+Harvesit’s vision is to connect each community member to their local fresh produce growers by shortening the physical and relational distance from farm to table.
 
 **Cultivate flourishing localized economies**
 
