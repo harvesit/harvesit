@@ -57,9 +57,86 @@ If we can transform how towns are fed, we can transform our society. By combinin
 # References
 - https://github.com/markdown-templates/markdown-emojis
 
-### Why and problem statements
+# Diagrams
 
-- Solving a real problem for your users, the local communities which are, disrupted local economy, disrupted modern lifestyle
+```mermaid
+graph LR
+    %% Defining Actors
+    A[Grower]
+    B[Consumer]
+    C[Delivery Provider]
+    D[Operation Manager]
+
+    %% Defining Use Cases for Growers
+    A1[Listing Produce] 
+    A2[Engaging in Transactions]
+    A3[AI-Powered Crop Planning]
+    A4[Early Detection of Crop Issues]
+    A5[IoT Device Integration]
+    A6[Receiving Tips]
+    A7[Sharing Farm Supply Store Information]
+    A8[Seasonal Crop Subscription Boxes]
+    A9[Sustainable Farming Badges and Rewards]
+
+    %% Defining Use Cases for Consumers
+    B1[Purchasing Local Produce]
+    B2[Tipping Growers]
+    B3[Engaging in Trade Transactions]
+    B4[Consumer Feedback and Ratings]
+    B5[Virtual Farm Tours and Educational Content]
+
+    %% Defining Use Cases for Delivery Providers
+    C1[Facilitating Produce Transport]
+    C2[Delivery Route Optimization]
+
+    %% Defining Use Cases for Operation Managers
+    D1[Overseeing Platform Reporting]
+    D2[Managing Produce Listings]
+    D3[Ensuring Platform Integrity]
+
+    %% Connections for Growers
+    A --> A1
+    A --> A2
+    A --> A3
+    A --> A4
+    A --> A5
+    A --> A6
+    A --> A7
+    A --> A8
+    A --> A9
+
+    %% Connections for Consumers
+    B --> B1
+    B --> B2
+    B --> B3
+    B --> B4
+    B --> B5
+
+    %% Connections for Delivery Providers
+    C --> C1
+    C --> C2
+
+    %% Connections for Operation Managers
+    D --> D1
+    D --> D2
+    D --> D3
+
+    %% Inter-Actor Relationships
+    A1 <--> B1
+    A2 <--> B3
+    A6 <--> B2
+    A4 <--> A3
+    A5 <--> A3
+    C1 <--> B1
+    C1 <--> A1
+    D1 <--> A1
+    D1 <--> B1
+    D2 <--> A1
+    D2 <--> B1
+    D3 <--> A1
+    D3 <--> B1
+```
+
 
 ### Notes
 - Solving a real problem for your user - rebuild local economy
