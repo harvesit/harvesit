@@ -40,13 +40,13 @@ Harvesit’s vision is to connect each community member to their local food grow
 
 By fostering robust ecosystems around locally-sourced food, Harvesit envisions towns and cities with thriving, resilient economies centered on sustainability.
 
-**Inspire future generations of growers** 
+**Foster a love for nature in our youth**
 
-Through an engaging digital platform, Harvesit aims to get youth excited about agriculture and inspire the next generation of local food producers.
+Through its engaging digital platform, Harvesit strives to bring passion for agriculture and a back-to-basics lifestyle to the next generation of growers by helping youth discover the wonders of nature and growing their own food.
 
-**Strengthen ties citywide, from farm to fork**
+**Bring neighbors together, from seed to table**
 
-By bringing urban residents together around homegrown fare, Harvesit sees an opportunity to cultivate tighter bonds within communities while driving environmental action.
+By connecting community members around locally cultivated food, Harvesit seeks to strengthen ties between residents while encouraging sustainable environmental practices.
 
 # ✨ Features (and suggestions)
 
