@@ -44,7 +44,7 @@ If we can transform how towns are fed, we can transform our society. By combinin
 
 ### Operation Managers:
 1. **Overseeing Platform Reporting**: Operation Managers analyze transaction reports, focusing on the diversity and quality of produce transactions.
-2. **Managing Produce Listings**: They ensure that all listed produce meets the platform's standards for quality and sustainability.
+2. **Managing Produce Listings**: Operation managers are responsible for managing product listings, including creating, updating, and removing items. They must ensure that the platform is used correctly.
 3. **Ensuring Platform Integrity**: They handle compliance issues, ensuring transactions adhere to platform guidelines.
 
 ### AI Features:
