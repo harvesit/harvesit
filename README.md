@@ -58,7 +58,7 @@ If we can transform how towns are fed, we can transform our society. By combinin
 - https://github.com/markdown-templates/markdown-emojis
 - https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams
 
-# Diagrams
+# Use Case Diagram
 
 ```mermaid
 graph LR
