@@ -32,11 +32,21 @@ Harvesit fosters understanding and participation to address these struggles.
 
 # 🔭 The Vision :stars: Self-Reliant, Sustainable Towns
 
-Harvesit aims to transform local food systems by connecting growers and consumers directly. This facilitates commerce but also mutual understanding around sustainable, small-scale agriculture.
+**Bring the farm closer**
 
-Our app strives to enable self-sufficiency and environmental resilience in towns by making localized food production economically viable. We help residents grow closer to nature and more connected with others focused on healthy, ethical, community-oriented lifestyles.  
+Harvesit’s vision is to connect each community member to their local food growers by shortening the physical and relational distance from farm to table.  
 
-By combining interdependence with independence from global systems, Harvesit works to realize a vision of thriving localized economies prioritizing sustainability and quality of life over endless economic abstraction.
+**Cultivate flourishing localized economies**
+
+By fostering robust ecosystems around locally-sourced food, Harvesit envisions towns and cities with thriving, resilient economies centered on sustainability.
+
+**Inspire future generations of growers** 
+
+Through an engaging digital platform, Harvesit aims to get youth excited about agriculture and inspire the next generation of local food producers.
+
+**Strengthen ties citywide, from farm to fork**
+
+By bringing urban residents together around homegrown fare, Harvesit sees an opportunity to cultivate tighter bonds within communities while driving environmental action.
 
 # ✨ Features (and suggestions)
 
