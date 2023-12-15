@@ -30,7 +30,7 @@ Additionally, modern lifestyles underappreciate qualities of fresh, sustainably-
 
 Harvesit fosters understanding and participation to address these struggles.
 
-# 🔭 The Vision :stars: Self-Reliant, Sustainable Towns
+# 🔭 The Vision :stars:
 
 **Bring the farm closer**
 
