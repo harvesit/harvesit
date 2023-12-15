@@ -170,6 +170,11 @@ graph LR
 
 5. Leverage cloud capabilities while sustaining core portability. Fully utilize managed services to increase productivity but loosely couple core logic from provider APIs. This focuses effort on valuable feature building rather than re-platforming. Prioritizing portable business logic delivers value quickly while retaining flexibility.
 
+### Ultimately these principles aim to:
+- Cut costs by reducing maintenance needs
+- Speed up how fast we can add new capabilities
+- Enable flexibility to adapt software in the future
+
 # Technology stack
 
 1. **Backend Services with .NET 8 and C# 12**: .NET 8 and C# 12 are excellent choices for backend development due to their robustness, scalability, and extensive community support. They also integrate seamlessly with other .NET ecosystem tools.
