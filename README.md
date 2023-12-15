@@ -174,7 +174,7 @@ graph LR
 
 # First Principle Software Design
 
-1. Writing self-documenting code boosts team velocity/morale and reduces costs. Carefully structure and comment code to express intent. This facilitates future maintenance and evolution to meet changing business needs.
+1. Writing self-documenting code boosts team velocity/morale and reduces costs. Carefully naming and structure code to express intent. This facilitates future maintenance and evolution to meet changing business needs.
 
 2. Modular architecture enables flexible enhancement and scalability. Decompose software around business capabilities with stable interfaces that can scale independently. Optimize for current needs without overengineering. Balance meeting today's requirements with the ability to enhance later. Keep complexity manageable as capabilities expand over time.
 
