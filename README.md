@@ -9,7 +9,18 @@ Ultimately, Harvesit intertwines advanced technologies with community-building a
 
 # :exclamation: The Problem
 
-In today's fast-paced, globalized world, local communities face significant challenges due to the disruptions in local economies and the modern lifestyle. The prevalence of mass-produced, imported food has led to a detachment from local agricultural sources, contributing to economic strain on small-scale growers and a decline in community cohesion. This detachment has also resulted in a diminished understanding and appreciation of sustainable, locally-sourced produce, further eroding the fabric of local food systems. Moreover, the modern lifestyle, characterized by convenience and speed, often overlooks the nutritional and environmental benefits of consuming fresh, locally-grown food.
+### Local communities are struggling in our globalised world and economy, including:
+- Reliance on mass-produced and imported foods has disconnected people from local agricultural sources
+- This contributes to economic hardship for small-scale local growers
+- It has reduced community cohesion and relationships around food
+
+### Detachment from local food systems has also led to:
+- Declining appreciation of sustainability and locally-sourced produce
+- Erosion of robust local food production networks
+
+### Additionally, modern lifestyles prioritizing speed and convenience ignore:
+- Nutritional benefits of fresh, local foods
+- Environmental advantages of short supply chains
 
 # Why?
 
