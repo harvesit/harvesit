@@ -48,7 +48,7 @@ Through its engaging digital platform, Harvesit strives to bring passion for agr
 
 By connecting community members around locally cultivated food, Harvesit seeks to strengthen ties between residents while encouraging sustainable environmental practices.
 
-# ✨ Features (and suggestions)
+# ✨ (Proposed) Features
 
 ### Growers:
 1. **Listing Produce**: Growers use the platform to list various types of produce for sale, specifying quantity, price, and providing images.
