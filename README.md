@@ -172,7 +172,7 @@ graph LR
     D3 <--> B1
 ```
 
-# Software Design First Principle Thinking
+# First Principle Software Design
 
 1. Writing self-documenting code boosts team velocity/morale and reduces costs. Carefully structure and comment code to express intent. This facilitates future maintenance and evolution to meet changing business needs.
 
