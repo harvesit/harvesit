@@ -9,7 +9,7 @@ Ultimately, Harvesit intertwines advanced technologies with community-building a
 
 # :exclamation: The Problem
 
-### Local communities are struggling in our globalised world and economy, including:
+### Local communities are struggling in our globalized world and economy, including:
 - Reliance on mass-produced and imported foods has disconnected people from local agricultural sources
 - This contributes to economic hardship for small-scale local growers
 - It has reduced community cohesion and relationships around food
