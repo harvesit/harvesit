@@ -54,7 +54,8 @@ If we can transform how towns are fed, we can transform our society. By combinin
 ### IoT Integration:
 1. **Real-Time Data for AI Analysis**: Growers utilize real-time data from IoT devices for informed decision-making in crop management.
 
-
+# References
+- https://github.com/markdown-templates/markdown-emojis
 
 ### Why and problem statements
 
