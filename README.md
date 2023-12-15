@@ -158,6 +158,40 @@ graph LR
     D3 <--> B1
 ```
 
+# Software Design First Principle Thinking
+
+1. Writing self-documenting code boosts team velocity/morale and reduces costs. Carefully structure and comment code to express intent. This facilitates future maintenance and evolution to meet changing business needs.
+
+2. Modular architecture enables flexible enhancement. Decompose software around business capabilities with stable interfaces. Optimize initially for current needs without overengineering. This balances simplicity now with strategic flexibility for future change, sustaining operational manageability even as modules multiply.
+
+3. Unify platforms/languages to maximize developer throughput. Eliminate context switching to enable deeper skill levels. This force multiplication means a unified team achieves greater velocity on strategic projects.
+
+4. Automate testing/deployments to accelerate delivery and enhance quality. Shift developer focus towards writing business logic rather than manual QA/ops. The increased velocity and resilience pay continuous dividends.
+
+5. Leverage cloud capabilities while sustaining core portability. Fully utilize managed services to increase productivity but loosely couple core logic from provider APIs. This focuses effort on valuable feature building rather than re-platforming. Prioritizing portable business logic delivers value quickly while retaining flexibility.
+
+# Technology stack
+
+1. **Backend Services with .NET 8 and C# 12**: .NET 8 and C# 12 are excellent choices for backend development due to their robustness, scalability, and extensive community support. They also integrate seamlessly with other .NET ecosystem tools.
+
+2. **Web Applications with Blazor .NET 8**: Blazor is a good choice for web applications, particularly for teams already proficient in C# and .NET. It allows for sharing code between server and client sides, enhancing consistency.
+
+3. **Mobile Applications with MAUI .NET 8**: MAUI is a versatile framework for developing cross-platform mobile applications. It aligns well with the principle of unifying platforms and tools.
+
+4. **Dapr.io for Microservices**: Dapr.io is an excellent choice for a cloud-agnostic, containerized microservice architecture. It supports modularity and scalability.
+
+5. **Azure Public Cloud**: Azure is a comprehensive cloud platform that supports the entire stack you’ve chosen. It offers a wide range of services and integrates well with .NET, Dapr, and other Microsoft technologies.
+
+6. **Python for AI and ML Workloads**: Python is the industry standard for AI and ML, offering extensive libraries and community support.
+
+7. **Azure RTOS and C++ for Embedded IoT Development**: Azure RTOS is a solid choice for real-time IoT applications, and C++ offers the performance needed for embedded systems.
+
+8. **GitHub for Code Repositories and CI/CD Pipelines**: GitHub is a robust platform for version control and CI/CD, facilitating collaboration and automation in line with your principles.
+
+9. **Azure CLI and Bicep for Infrastructure-as-Code (IaC)**: Azure CLI and Bicep are good choices for IaC, promoting automation and consistency in cloud resource management.
+
+
+
 
 ### Notes
 - Solving a real problem for your user - rebuild local economy
