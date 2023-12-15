@@ -22,10 +22,8 @@ Ultimately, Harvesit intertwines advanced technologies with community-building a
 - Nutritional benefits of fresh, local foods
 - Environmental advantages of short supply chains
 
-# Why?
+# The importance of strong local economies
 
-The importance of strong local economies:
-- Rethinks the notion of endless economic "progress" and globalization as unrealistic and unsustainable goals
 - Localization and self-reliant communities are more resilient and better able to withstand global disruptions
 - Economic activity centered in communities invests back into those areas directly through jobs, infrastructure, services etc.
 - Local systems build interdependencies and connections between community members, improving social fabric
