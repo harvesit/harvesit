@@ -1,14 +1,18 @@
+# 🌱 Harvesit App
+Harvesit, which works similarly to DoorDash and Airbnb, seeks to revolutionise local food supply chains and agriculture through its innovative digital platform.
+
+It connects growers, consumers, and delivery providers in a community-centric ecosystem. Growers can sell or trade their produce, benefiting from mobile App, AI and IoT technologies for enhanced crop management. Consumers enjoy access to fresh, local produce with the option to buy or trade, fostering a sustainable local food economy. Harvesit stands out for its integration of advanced technology with traditional farming practices, promoting sustainability, community engagement, and economic independence at a local level.
+
+# Why?
+
+In today's fast-paced, globalized world, local communities face significant challenges due to the disruptions in local economies and the modern lifestyle. The prevalence of mass-produced, imported food has led to a detachment from local agricultural sources, contributing to economic strain on small-scale growers and a decline in community cohesion. This detachment has also resulted in a diminished understanding and appreciation of sustainable, locally-sourced produce, further eroding the fabric of local food systems. Moreover, the modern lifestyle, characterized by convenience and speed, often overlooks the nutritional and environmental benefits of consuming fresh, locally-grown food. The Harvesit app aims to address these challenges by revitalizing local economies and reconnecting communities with their food sources. By facilitating direct access to locally-grown produce and fostering a culture of sustainable living, Harvesit seeks to restore the balance between modern living and community-based, environmentally conscious food consumption. The platform endeavors to empower local growers, educate consumers, and strengthen community ties, ultimately contributing to a more resilient and self-sufficient local ecosystem.
+
 # 🔭 Vision
 Harvesit aims to transform local food systems by bringing community members together around fresh, sustainably grown produce. Our platform connects residents directly with area growers - from traditional farmers to backyard gardeners - facilitating commerce and mutual understanding. By making small-scale agriculture economically viable and letting individuals play an active role in their food supply, Harvesit strives to help towns achieve self-sufficiency and environmental resilience.  
 
 We are working to build community resilience and self-reliance from the ground up, starting with food. As people grow closer to their food sources, Harvesit also lets them grow closer to nature and more connected with others doing the same. Our platform shortens the distance between growers and consumers both physically and relationally. This helps create local economies that promote transparency and trust. Integrating the latest technology with traditional growing methods, Harvesit serves as a model for balancing innovation with ecological limits.
 
 If we can transform how towns are fed, we can transform our society. By combining an ethos of community interdependence with tools for independence from global systems, Harvesit aims to write a new chapter for thriving localised economies.
-
-# 🌱 Harvesit App
-Harvesit, which works similarly to DoorDash and Airbnb, seeks to revolutionise local food supply chains and agriculture through its innovative digital platform.
-
-It connects growers, consumers, and delivery providers in a community-centric ecosystem. Growers can sell or trade their produce, benefiting from mobile App, AI and IoT technologies for enhanced crop management. Consumers enjoy access to fresh, local produce with the option to buy or trade, fostering a sustainable local food economy. Harvesit stands out for its integration of advanced technology with traditional farming practices, promoting sustainability, community engagement, and economic independence at a local level.
 
 # ✨ Features (and suggestions)
 
@@ -52,11 +56,13 @@ It connects growers, consumers, and delivery providers in a community-centric ec
 
 
 
-### Why (problems)
+### Why and problem statements
 
+- Solving a real problem for your users, the local communities which are, disrupted local economy, disrupted modern lifestyle
+
+### Notes
 - Solving a real problem for your user - rebuild local economy
 - Fall in love with a problem. Specific
-
 - Founder market fit - are you the right team to be working on this idea?
 - How big is the market?
 - How accute is this problem?
@@ -78,14 +84,9 @@ It connects growers, consumers, and delivery providers in a community-centric ec
 
 ## How
 - Focus on the most important characteristics and requirements to create a system that works and can last a long time. (how to identity these things?)
-
 - Just enough upfront work
-
 - Business needs, context, needs in the future
-
 - Optimise for change. Architect for system with a need for change in mind.
-
-
 
 ### Hi there 👋
 
