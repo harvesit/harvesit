@@ -6,7 +6,9 @@ We are working to build community resilience and self-reliance from the ground u
 If we can transform how towns are fed, we can transform our society. By combining an ethos of community interdependence with tools for independence from global systems, Harvesit aims to write a new chapter for thriving localised economies.
 
 # 🌱 Harvesit App
-Harvesit is a dynamic digital platform designed to revolutionize local agriculture. It connects growers, consumers, and delivery providers in a community-centric ecosystem. Growers can sell or trade their produce, benefiting from AI and IoT technologies for enhanced crop management. Consumers enjoy access to fresh, local produce with the option to buy or trade, fostering a sustainable local food economy. The platform is managed by internal administrators, ensuring a smooth, compliant, and beneficial experience for all users. Harvesit stands out for its integration of advanced technology with traditional farming practices, promoting sustainability, community engagement, and economic independence at a local level.
+Harvesit, which works similarly to DoorDash and Airbnb, seeks to revolutionise local food supply chains and agriculture through its innovative digital platform.
+
+It connects growers, consumers, and delivery providers in a community-centric ecosystem. Growers can sell or trade their produce, benefiting from Smartphone, AI and IoT technologies for enhanced crop management. Consumers enjoy access to fresh, local produce with the option to buy or trade, fostering a sustainable local food economy. Harvesit stands out for its integration of advanced technology with traditional farming practices, promoting sustainability, community engagement, and economic independence at a local level.
 
 # ✨ Features (and suggestions)
 
