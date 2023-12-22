@@ -121,13 +121,19 @@ By connecting community members around locally cultivated food, Harvesit seeks t
    - Consumers provide 1-5 star ratings on quality, service etc.
    - Reviews are public and help inform other consumers
    
-**Delivery**
+**Delivery Providers**
 
-1. Facilitate Transport
-   - Integrate with a delivery provider's API
-   - Orders are automatically sent to delivery provider app
-   - Delivery partner picks up produce from grower and drops off at consumer
-   - Status updates in real-time in both consumer and grower apps
+1. Accept Delivery Job
+   - Same users who act as consumers or growers can also sign up as delivery providers  
+   - When a consumer purchases produce, nearby delivery providers get a notification 
+   - Delivery provider can accept the delivery job in the app
+   
+2. Coordinate Pick-Up & Drop-Off
+   - Accepting a job shares the grower's contact and location details
+   - Delivery provider coordinates schedule for picking up produce
+   - After pickup, delivery address is shown on map
+   - Status updates in real-time for consumer and grower
+   - Simple features to complete delivery when produce is handed off to consumer
 
 **Operators** 
 
