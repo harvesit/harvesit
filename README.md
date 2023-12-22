@@ -238,7 +238,7 @@ graph LR
     EMI -->|Used by| GS
 
 ```
-## Grower Services Component Diagram
+### Grower Services Component Diagram
 ```mermaid
 graph LR
     GS[Grower Services] --> PLM[Produce Listing Manager]
@@ -263,6 +263,66 @@ graph LR
     AIS -.-> CIDS
     IoT -.-> EMI
     PPS -.-> TPS
+```
+### Consumer Services Component Diagram
+```mermaid
+graph LR
+    CS[Consumer Services] --> PSE[Produce Search Engine]
+    CS --> PMS[Purchase Management System]
+    CS --> RSE[Recipe Suggestion Engine]
+    CS --> RRS[Rating and Review System]
+    CS --> PTPS[Produce Tips Processing System]
+
+    PSE -->|Interacts with| DS[Data Storage]
+    PMS -->|Interacts with| DS
+    PMS -->|Integrates with| PPS[Payment Processing Service]
+    RSE -->|Uses| AIS[AI Service]
+    RRS -->|Stores data in| DS
+    PTPS -->|Integrates with| PPS
+
+    DS[Data Storage] -.-> CS
+    AIS -.-> RSE
+    PPS -.-> PMS
+    PPS -.-> PTPS
+```
+### Delivery Service Component Diagram
+```mermaid
+graph LR
+    DPS[Delivery Provider Services] --> DJMS[Delivery Job Management System]
+    DPS --> ROE[Route Optimization Engine]
+    DPS --> DSS[Delivery Scheduling System]
+    DPS --> RTTS[Real-Time Tracking System]
+    DPS --> DFRS[Delivery Feedback and Rating System]
+
+    DJMS -->|Interacts with| DS[Data Storage]
+    ROE -->|Uses| MS[Map Service]
+    DSS -->|Interacts with| DS
+    RTTS -->|Updates| U[Users]
+    DFRS -->|Stores data in| DS
+
+    DS[Data Storage] -.-> DPS
+    MS -.-> ROE
+    U -.-> RTTS
+```
+### Platform Administrator Component Diagram
+```mermaid
+graph LR
+    AS[Administrator Services] --> LMS[Listing Management System]
+    AS --> UMS[User Management System]
+    AS --> ARE[Analytics and Reporting Engine]
+    AS --> SCAS[System Configuration and Settings]
+    AS --> NCS[Notification and Communication System]
+
+    LMS -->|Interacts with| DS[Data Storage]
+    UMS -->|Interacts with| DS
+    ARE -->|Utilizes| DAT[Data Analysis Tools]
+    SCAS -->|Configures| CS[Core Services]
+    NCS -->|Communicates with| U[Users]
+
+    DS[Data Storage] -.-> AS
+    DAT -.-> ARE
+    CS -.-> SCAS
+    U -.-> NCS
 
 ```
 
