@@ -102,22 +102,21 @@ By connecting community members around locally cultivated food, Harvesit seeks t
 **Consumers**
 
 1. Search Produce
-   - Consumer enters produce type and quantity needed
-   - Results show listings from nearby growers, sorted by harvest date 
-   - Consumers can filter by things like organic, pricing etc.
+   - Consumer enters produce type  
+   - Results show listings from nearby growers, sorted by harvest date  
    - Map view shows locations of growers pinned to map
    - Consumers can search by selecting area on map
 
 2. Purchase Produce
    - Consumer selects a listing and confirms order
-   - Payment processed via app. Grower is notified of the purchase.
+   - Payment processed via app. Grower is notified of the purchase. 
    - Consumer coordinates pickup/delivery with the grower
-   
-3. Healthy Recipe Suggestions
-   - Based on consumer's recent produce purchases  
-   - AI algorithm provides healthy, simple recipe ideas 
-   - Links out to recipe blogs/videos
+   - Consumers can provide tips to growers 
 
+3. Healthy Recipe Suggestions
+   - Based on current and upcoming produce listings from nearby growers 
+   - AI algorithm provides healthy, simple recipe ideas
+   
 4. Rate and Review Growers
    - Consumers provide 1-5 star ratings on quality, service etc.
    - Reviews are public and help inform other consumers
