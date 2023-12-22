@@ -1,19 +1,14 @@
  # 🌱 Harvesit 📱 A Digital Platform Revitalizing Local Fresh Produce
 
-Harvesit is an innovative digital platform designed to strengthen and transform localized fresh produce systems by directly connecting growers and consumers.
+Harvesit is a digital service that connects backyard growers and small farms directly with local consumers - making ultra-fresh produce accessible via mobile app.
 
-The platform provides powerful tools to simplify operations across the local fresh produce supply chain, including:
+Growers list upcoming harvests from gardens, orchards and fields in their neighborhood. AI-powered crop planning tools provide personalized guidance on planting. Computer vision detects pests early and identifies deficiencies.
 
-* Listing/ordering app that allows growers to directly showcase and sell or trade their fresh produce to the local community
+Shoppers browse area offerings through an interactive map interface. Order whatever looks good for delivery or contactless pickup via the app. AI-driven healthy recipes adapt to available seasonal abundance.
 
-* Delivery coordination features to seamlessly transport local fresh produce from field to table  
+Payment and logistics are managed seamlessly by the platform. Community members can flex roles from consumer to grower to delivery driver. Two-way ratings and reviews cultivate trust and transparency.
 
-* Crop planning/management functionality leveraging AI and IoT to help improve fresh produce yields
-
-
-Drawing inspiration from platforms like Airbnb and DoorDash, Harvesit combines modern technology with a mission-driven focus on revitalizing local fresh produce ecosystems through economic, social and environmental sustainability. 
-
-By making small-scale, community-centric agriculture of nutritious local fresh produce easy, viable and rewarding for both producers and consumers, Harvesit aims to facilitate localized resilience, self-reliance and interconnection.
+Part customizable farm box, part micro farmers’ market - Harvesit taps into hyperlocal harvests for maximum freshness. Reducing waste and emissions through smarter technology, shorter supply chains and stronger regional ties.
 
 
 # 💔 Struggling Local Fresh Food Economies
