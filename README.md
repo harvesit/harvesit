@@ -55,45 +55,96 @@ Through its engaging digital platform, Harvesit strives to bring passion for agr
 
 By connecting community members around locally cultivated food, Harvesit seeks to strengthen ties between residents while encouraging sustainable environmental practices.
 
-# ✨ (Proposed) Features
+# ✨ Features
 
-### Growers:
-1. **Listing Produce**: Growers use the platform to list various types of produce for sale, specifying quantity, price, and providing images.
-2. **Engaging in Transactions**: Growers engage in trading, where they can exchange different types of produce with each other using the platform’s trade function.
-3. **AI-Powered Crop Planning**: Growers upload soil data to receive AI suggestions on the most suitable types of produce to plant for the upcoming season.
-4. **Early Detection of Crop Issues**: Growers can upload photos of their crops for AI-powered early detection of issues, receiving diagnostics and suggestions for corrective measures.
-5. **IoT Device Integration**: Growers install IoT sensors in their growing areas to track environmental factors, feeding data to Harvesit for enhanced crop management advice.
-6. **Receiving Tips**: Growers can receive monetary tips from buyers through the platform, fostering a supportive community environment.
-7. **Sharing Farm Supply Store Information**: Growers contribute information about local farm supply stores, enhancing the community resource pool.
-8. **Seasonal Crop Subscription Boxes**: Growers offer subscription services for assorted seasonal produce, promoting regular income and consumer exploration of diverse produce.
-9. **Sustainable Farming Badges and Rewards**: The platform recognizes growers practicing sustainable and organic farming with badges and rewards, incentivizing environmentally friendly practices.
+**Growers**
 
-### Consumers:
-1. **Purchasing Local Produce**: Consumers use the app to purchase various types of local produce from nearby growers.
-2. **Tipping Growers**: Consumers have the option to tip growers, supporting and appreciating their efforts in sustainable agriculture.
-3. **Engaging in Trade Transactions**: Consumers who are also growers can engage in trade transactions, exchanging their own produce with others.
-4. **Consumer Feedback and Ratings**: Consumers provide feedback and ratings for their purchases, aiding in community-driven quality assurance.
-5. **Virtual Farm Tours and Educational Content**: Consumers access virtual tours of local growing areas and educational content about sustainable farming practices.
+1. List Produce  
+   - Grower logs into app and creates listings for produce that will be ready for harvest
+   - Grower enters details like crop type, quantity available, expected harvest date, price, etc.   
+   - Once listed, produce is automatically searchable by consumers
+   
+2. Sell Produce
+   - Grower changes listing status to "Ready for Sale" when crop is ready for harvest
+   - Payment is processed via app. Grower gets notified of new orders.
+   
+3. Trade Produce
+   - Grower can propose a trade of their produce with other growers  
+   - Other growers get notifications and can accept trade proposal
+   - Pickup/drop-off logistics are arranged between growers
+   
+4. Find Farm Supply Stores
+   - Map view shows farm supply stores in nearby locations
+   - Growers can get directions, store hours, inventory availability etc.
 
-### Delivery Providers:
-1. **Facilitating Produce Transport**: Users can opt to become delivery providers, delivering a variety of produce from growers to consumers.
-2. **Delivery Route Optimization**: The platform uses AI to optimize delivery routes for efficiency and reduced environmental impact.
+5. Add Farm Supply Store
+   - Growers can add new farm supply stores by entering address  
+   - Added stores are pinned on map
+   
+6. Receive Buyer Tips
+   - Consumers can provide monetary tips to growers during a sale 
+   - Tips are transferred to grower after successful delivery
 
-### Map View:
-1. **Searching for Produce on Map**: Consumers and growers can use the map view to locate various types of produce and growers within a specific radius.
-2. **Locating Farm Supply Stores**: The map view also aids in finding the closest farm supply stores for various farming needs.
+7. Crop Planning Suggestions 
+   - Grower enters details on farm size, crops grown
+   - AI algorithm provides personalized suggestions on optimal crops to grow based on soil type, climate etc.
+   
+8. Crop Issue Detection
+   - Grower uploads plant photos through app
+   - Computer vision AI detects presence of disease, pests etc.
+   - Preventative advice is provided to grower if issues are found early
+   
+9. Environmental Monitoring
+   - Grower sets up IoT sensors (provided by platform)
+   - Sensors transmit temperature, humidity, soil moisture data
+   - Data visualized in easy charts and graphs for the grower
+   
+**Consumers**
 
-### Operation Managers:
-1. **Overseeing Platform Reporting**: Operation Managers analyze transaction reports, focusing on the diversity and quality of produce transactions.
-2. **Managing Produce Listings**: Operation managers are responsible for managing product listings, including creating, updating, and removing items. They must ensure that the platform is used correctly.
-3. **Ensuring Platform Integrity**: They handle compliance issues, ensuring transactions adhere to platform guidelines.
+1. Search Produce
+   - Consumer enters produce type and quantity needed
+   - Results show listings from nearby growers, sorted by harvest date 
+   - Consumers can filter by things like organic, pricing etc.
+   - Map view shows locations of growers pinned to map
+   - Consumers can search by selecting area on map
 
-### AI Features:
-1. **AI-Driven Crop Suggestions**: Growers receive AI-based recommendations for planting, tailored to local conditions and sustainable practices.
-2. **AI Photo Analysis for Crop Health**: The AI tool provides analysis of crop health issues, offering timely advice for growers.
+2. Purchase Produce
+   - Consumer selects a listing and confirms order
+   - Payment processed via app. Grower is notified of the purchase.
+   - Consumer coordinates pickup/delivery with the grower
+   
+3. Healthy Recipe Suggestions
+   - Based on consumer's recent produce purchases  
+   - AI algorithm provides healthy, simple recipe ideas 
+   - Links out to recipe blogs/videos
 
-### IoT Integration:
-1. **Real-Time Data for AI Analysis**: Growers utilize real-time data from IoT devices for informed decision-making in crop management.
+4. Rate and Review Growers
+   - Consumers provide 1-5 star ratings on quality, service etc.
+   - Reviews are public and help inform other consumers
+   
+**Delivery**
+
+1. Facilitate Transport
+   - Integrate with a delivery provider's API
+   - Orders are automatically sent to delivery provider app
+   - Delivery partner picks up produce from grower and drops off at consumer
+   - Status updates in real-time in both consumer and grower apps
+
+**Operators** 
+
+1. Manage Listings
+   - Review and approve new produce listings before they are live
+   - Remove inappropriate listings
+   - Ensure listing info meets guidelines
+   
+2. Crop Planning Guidance
+   - Analyze aggregate data on crops that performed well
+   - Provide region-specific guidance to growers on optimal crops
+
+3. Analytics Reporting
+   - Key metrics like number of listings, sales volumes and values, consumer NPS
+   - Segment data by crop type, grower size, geography etc.
+   - Inform business decisions around expansion, partnerships etc.
 
 # References
 - https://github.com/markdown-templates/markdown-emojis
