@@ -135,21 +135,17 @@ By connecting community members around locally cultivated food, Harvesit seeks t
    - Status updates in real-time for consumer and grower
    - Simple features to complete delivery when produce is handed off to consumer
 
-**Operators** 
+**Platform Administrators**
 
-1. Manage Listings
-   - Review and approve new produce listings before they are live
+1. Manage Produce Listings  
+   - Create, update, delete produce types allowed to be listed
+   - Ensure listings meet guidelines before publishing 
    - Remove inappropriate listings
-   - Ensure listing info meets guidelines
    
-2. Crop Planning Guidance
-   - Analyze aggregate data on crops that performed well
-   - Provide region-specific guidance to growers on optimal crops
-
-3. Analytics Reporting
-   - Key metrics like number of listings, sales volumes and values, consumer NPS
-   - Segment data by crop type, grower size, geography etc.
-   - Inform business decisions around expansion, partnerships etc.
+2. Analytics Reporting
+   - Key metrics like number of users, listings, sales volumes and values  
+   - Reporting on trends for different crops, geographies
+   - Inform decisions around improving platform features and functionality
 
 # References
 - https://github.com/markdown-templates/markdown-emojis
