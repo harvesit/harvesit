@@ -216,6 +216,75 @@ graph LR
 
 9. **Azure CLI and Bicep for Infrastructure-as-Code (IaC)**: Azure CLI and Bicep are good choices for IaC, promoting automation and consistency in cloud resource management.
 
+```mermaid
+graph TB
+
+    %% External Systems
+    Azure[(Azure)]
+    Twilio[(Twilio)]
+    AzureMaps[(Azure Maps)]
+    TomorrowIO[(Tomorrow.io)] 
+    NOAA[(NOAA)]
+
+    %% Component Groups
+    subgraph Order Management [Order Management]
+        TradingService[Trading Service]
+        PaymentService[Payment Service]  
+        OrderDB[(Order DB)]
+    end
+
+    subgraph Delivery Management [Delivery Management]
+        DeliveryService[Delivery Service]
+        RouteOptService[Route Optimization Service]  
+        DeliveryDB[(Delivery DB)] 
+    end
+
+    subgraph Crop Management [Crop Management]
+        AIAnalysisService[AI Analysis Service]
+        IOTService[IOT Service] 
+        CropDB[(Crop DB)]
+    end
+
+    subgraph Platform Management [Platform Management]
+        PlatformService[Platform Service] 
+        UserDB[(User DB)]
+        ListingDB[(Listing DB)] 
+    end
+
+    %% Shared Services  
+    MapService[Map Service]
+    NotificationService[Notification Service]
+
+    %% Client Apps
+    MobileApp[Mobile App]
+    WebApp[Web App]
+
+    %% Relationships
+
+    MobileApp --> TradingService
+    MobileApp --> PaymentService
+
+    WebApp --> PlatformService
+    WebApp --> TradingService
+
+    TradingService --> OrderDB
+    PaymentService --> OrderDB
+    DeliveryService --> DeliveryDB
+
+    RouteOptService --> AzureMaps
+    RouteOptService --> DeliveryService
+
+    AIAnalysisService --> TomorrowIO
+    AIAnalysisService --> NOAA
+    AIAnalysisService --> CropDB
+    IOTService --> CropDB
+
+    PlatformService --> UserDB
+    PlatformService --> ListingDB
+
+    MapService --> AzureMaps
+    NotificationService --> Twilio
+```
 
 
 
