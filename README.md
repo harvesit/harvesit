@@ -14,30 +14,30 @@ Part customizable farm box, part micro farmers’ market - Harvesit taps into hy
 # :bulb: Why Harvesit? 
 
 - Access the Freshest Food Grown Around the Corner  
-     - Harvested right in your neighborhood
+     - Harvested right in your neighborhood 🍅🌽🥕
      
 - Support Sustainable Local Food Systems   
-     - Keep dollars circulating locally
-     - Enable small-scale farms  
-     - Promote biodiversity
+     - Keep dollars circulating locally 💸
+     - Enable small-scale farms 🚜
+     - Promote biodiversity 🌱🌿🌞
      
 - Reduce Food Waste and Emissions 
-     - Connect unmarketed harvests to buyers
-     - Slash supply chain miles
+     - Connect unmarketed harvests to buyers 🍓🍐
+     - Slash supply chain miles 🚛➡️
   
 - Build Stronger Communities 
-    - Know who grows your food   
-    - Exchange skills and surplus harvests
-    - Foster relationships around food
+    - Know who grows your food 👨‍🌾👩‍🌾
+    - Exchange skills and surplus harvests 🤝
+    - Foster relationships around food 🥗
                
 - Boost Local Economies
-    - Increase regional self-reliance
-    - Help bootstrap new farms 
-    - Create jobs beyond growing food
+    - Increase regional self-reliance 📈
+    - Help bootstrap new farms 🐓🌾
+    - Create jobs beyond growing food 🧑‍💻
             
 - Cultivate the Next Generation of Farmers  
-    - Inspire and train future producers
-    - Share knowledge between generations
+    - Inspire and train future producers 👩‍🌾👨‍🌾
+    - Share knowledge between generations 👵👦
 
 # ✨ Features
 
