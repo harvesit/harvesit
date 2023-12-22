@@ -1,4 +1,4 @@
- # 🌱 Harvesit 📱 A Digital Platform Revitalizing Local Fresh Produce
+ # 🌱 Harvesit
 
 Harvesit is a digital service that connects backyard growers and small farms directly with local consumers - making ultra-fresh produce accessible via mobile app.
 
@@ -11,44 +11,33 @@ Payment and logistics are managed seamlessly by the platform. Community members 
 Part customizable farm box, part micro farmers’ market - Harvesit taps into hyperlocal harvests for maximum freshness. Reducing waste and emissions through smarter technology, shorter supply chains and stronger regional ties.
 
 
-# 💔 Struggling Local Fresh Food Economies
+# :bulb: Why Harvesit? 
 
-Local fresh food systems face systemic challenges, including:
-
-* Overreliance on mass-produced import foods, disconnecting communities from regional agricultural networks
-
-* Economic hardship for small-scale local fresh produce growers
-
-* Lost opportunities for community cohesion around nutritious, locally grown fresh produce
-
-
-Additionally, modern lifestyles underappreciate qualities of fresh, sustainably-sourced local fresh produce:
-
-* Nutrition and health benefits
-
-* Environmental advantages of shortened supply chains
-
-
-Harvesit fosters understanding and participation to address these struggles.
-
-
-# 🔭 The Vision 🌠
-
-**Bring the farm closer**
-
-Harvesit’s vision is to connect each community member to their local fresh produce growers by shortening the physical and relational distance from farm to table.
-
-**Cultivate flourishing localized economies**
-
-By fostering robust ecosystems around locally-sourced food, Harvesit envisions towns and cities with thriving, resilient economies centered on sustainability.
-
-**Foster a love for nature in our youth**
-
-Through its engaging digital platform, Harvesit strives to bring passion for agriculture and a back-to-basics lifestyle to the next generation of growers by helping youth discover the wonders of nature and growing their own food.
-
-**Bring neighbors together, from seed to table**
-
-By connecting community members around locally cultivated food, Harvesit seeks to strengthen ties between residents while encouraging sustainable environmental practices.
+- Access the Freshest Food Grown Around the Corner  
+     - Harvested right in your neighborhood
+     
+- Support Sustainable Local Food Systems   
+     - Keep dollars circulating locally
+     - Enable small-scale farms  
+     - Promote biodiversity
+     
+- Reduce Food Waste and Emissions 
+     - Connect unmarketed harvests to buyers
+     - Slash supply chain miles
+  
+- Build Stronger Communities 
+    - Know who grows your food   
+    - Exchange skills and surplus harvests
+    - Foster relationships around food
+               
+- Boost Local Economies
+    - Increase regional self-reliance
+    - Help bootstrap new farms 
+    - Create jobs beyond growing food
+            
+- Cultivate the Next Generation of Farmers  
+    - Inspire and train future producers
+    - Share knowledge between generations
 
 # ✨ Features
 
