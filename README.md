@@ -238,6 +238,33 @@ graph LR
     EMI -->|Used by| GS
 
 ```
+## Grower Services Component Diagram
+```mermaid
+graph LR
+    GS[Grower Services] --> PLM[Produce Listing Manager]
+    GS --> TMS[Trade Management System]
+    GS --> SSL[Supply Store Locator]
+    GS --> CAS[Crop Advisory System]
+    GS --> CIDS[Crop Issue Detection System]
+    GS --> EMI[Environmental Monitoring Interface]
+    GS --> TPS[Tip Processing System]
+
+    PLM -->|Interacts with| DS[Data Storage]
+    TMS -->|Interacts with| DS
+    SSL -->|Uses| MS[Map Service]
+    CAS -->|Uses| AIS[AI Service]
+    CIDS -->|Uses| AIS
+    EMI -->|Receives data from| IoT[IoT Devices]
+    TPS -->|Integrates with| PPS[Payment Processing Service]
+
+    DS[Data Storage] -.-> GS
+    MS -.-> SSL
+    AIS -.-> CAS
+    AIS -.-> CIDS
+    IoT -.-> EMI
+    PPS -.-> TPS
+
+```
 
 # First Principle Software Design
 
