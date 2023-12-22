@@ -136,83 +136,40 @@ Part customizable farm box, part micro farmers’ market - Harvesit taps into hy
 - https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams
 
 # Use Case Diagram
-
 ```mermaid
 graph LR
-    %% Defining Actors
-    A[Grower]
-    B[Consumer]
-    C[Delivery Provider]
-    D[Operation Manager]
+    A[Growers] --> B1[List Produce]
+    A --> B2[Sell Produce] 
+    A --> B3[Trade Produce]
+    A --> B4[Find Farm Supply Stores]
+    A --> B5[Add Farm Supply Store]
+    B1 --> B6[Receive Buyer Tips]
+    A --> B7[Crop Planning Suggestions]
+    A --> B8[Crop Issue Detection]
+    A --> B9[Environmental Monitoring]
+    
+    B2 --> D2[Purchase Produce]
+    B3 --> A
+    
+    F1[Accept Delivery Job] --> B2 
+    F2[Coordinate Pickup & Drop-off] --> A
+    
+    C[Consumers] --> D1[Search Produce]
+    C --> D2
+    C --> D3[Healthy Recipe Suggestions]  
+    C --> D4[Rate and Review Growers]
+    
+    F2 --> C
 
-    %% Defining Use Cases for Growers
-    A1[Listing Produce] 
-    A2[Engaging in Transactions]
-    A3[AI-Powered Crop Planning]
-    A4[Early Detection of Crop Issues]
-    A5[IoT Device Integration]
-    A6[Receiving Tips]
-    A7[Sharing Farm Supply Store Information]
-    A8[Seasonal Crop Subscription Boxes]
-    A9[Sustainable Farming Badges and Rewards]
+    E[Delivery Providers] --> F1
+    E --> F2
+    
+    G[Platform Administrators] --> H1[Manage Produce Listings] 
+    G --> H2[Analytics Reporting]
+```
 
-    %% Defining Use Cases for Consumers
-    B1[Purchasing Local Produce]
-    B2[Tipping Growers]
-    B3[Engaging in Trade Transactions]
-    B4[Consumer Feedback and Ratings]
-    B5[Virtual Farm Tours and Educational Content]
+```mermaid
 
-    %% Defining Use Cases for Delivery Providers
-    C1[Facilitating Produce Transport]
-    C2[Delivery Route Optimization]
-
-    %% Defining Use Cases for Operation Managers
-    D1[Overseeing Platform Reporting]
-    D2[Managing Produce Listings]
-    D3[Ensuring Platform Integrity]
-
-    %% Connections for Growers
-    A --> A1
-    A --> A2
-    A --> A3
-    A --> A4
-    A --> A5
-    A --> A6
-    A --> A7
-    A --> A8
-    A --> A9
-
-    %% Connections for Consumers
-    B --> B1
-    B --> B2
-    B --> B3
-    B --> B4
-    B --> B5
-
-    %% Connections for Delivery Providers
-    C --> C1
-    C --> C2
-
-    %% Connections for Operation Managers
-    D --> D1
-    D --> D2
-    D --> D3
-
-    %% Inter-Actor Relationships
-    A1 <--> B1
-    A2 <--> B3
-    A6 <--> B2
-    A4 <--> A3
-    A5 <--> A3
-    C1 <--> B1
-    C1 <--> A1
-    D1 <--> A1
-    D1 <--> B1
-    D2 <--> A1
-    D2 <--> B1
-    D3 <--> A1
-    D3 <--> B1
 ```
 
 # First Principle Software Design
@@ -251,76 +208,6 @@ graph LR
 8. **GitHub for Code Repositories and CI/CD Pipelines**: GitHub is a robust platform for version control and CI/CD, facilitating collaboration and automation in line with your principles.
 
 9. **Azure CLI and Bicep for Infrastructure-as-Code (IaC)**: Azure CLI and Bicep are good choices for IaC, promoting automation and consistency in cloud resource management.
-
-```mermaid
-graph TB
-
-    %% External Systems
-    Azure[(Azure)]
-    Twilio[(Twilio)]
-    AzureMaps[(Azure Maps)]
-    TomorrowIO[(Tomorrow.io)] 
-    NOAA[(NOAA)]
-
-    %% Component Groups
-    subgraph Order Management [Order Management]
-        TradingService[Trading Service]
-        PaymentService[Payment Service]  
-        OrderDB[(Order DB)]
-    end
-
-    subgraph Delivery Management [Delivery Management]
-        DeliveryService[Delivery Service]
-        RouteOptService[Route Optimization Service]  
-        DeliveryDB[(Delivery DB)] 
-    end
-
-    subgraph Crop Management [Crop Management]
-        AIAnalysisService[AI Analysis Service]
-        IOTService[IOT Service] 
-        CropDB[(Crop DB)]
-    end
-
-    subgraph Platform Management [Platform Management]
-        PlatformService[Platform Service] 
-        UserDB[(User DB)]
-        ListingDB[(Listing DB)] 
-    end
-
-    %% Shared Services  
-    MapService[Map Service]
-    NotificationService[Notification Service]
-
-    %% Client Apps
-    MobileApp[Mobile App]
-    WebApp[Web App]
-
-    %% Relationships
-
-    MobileApp --> TradingService
-    MobileApp --> PaymentService
-
-    WebApp --> PlatformService
-    WebApp --> TradingService
-
-    TradingService --> OrderDB
-    PaymentService --> OrderDB
-    DeliveryService --> DeliveryDB
-
-    RouteOptService --> AzureMaps
-    RouteOptService --> DeliveryService
-
-    AIAnalysisService --> TomorrowIO
-    AIAnalysisService --> NOAA
-    AIAnalysisService --> CropDB
-    IOTService --> CropDB
-
-    PlatformService --> UserDB
-    PlatformService --> ListingDB
-
-    MapService --> AzureMaps
-    NotificationService --> Twilio
-```
 
 
 
