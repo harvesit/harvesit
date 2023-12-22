@@ -147,28 +147,95 @@ graph LR
     A --> B7[Crop Planning Suggestions]
     A --> B8[Crop Issue Detection]
     A --> B9[Environmental Monitoring]
+    B2 -->|Involves| P[Payment Processing]
     
     B2 --> D2[Purchase Produce]
     B3 --> A
+    P --> D2
     
     F1[Accept Delivery Job] --> B2 
     F2[Coordinate Pickup & Drop-off] --> A
     
-    C[Consumers] --> D1[Search Produce]
+    C[Consumers] --> U[User Registration/Authentication]
+    U --> D1[Search Produce]
     C --> D2
     C --> D3[Healthy Recipe Suggestions]  
     C --> D4[Rate and Review Growers]
     
     F2 --> C
+    NS[Notification System] --> A
+    NS --> C
+    NS --> E
 
     E[Delivery Providers] --> F1
     E --> F2
-    
+    E --> U
+
     G[Platform Administrators] --> H1[Manage Produce Listings] 
     G --> H2[Analytics Reporting]
+    G --> U
 ```
-
+# Component Diagram
 ```mermaid
+graph LR
+    subgraph Interfaces
+    WA[Web App - Administrators]
+    MA[Mobile App - Users]
+    end
+
+    subgraph Event-Driven Microservices
+    GS[Grower Services]
+    CS[Consumer Services]
+    DPS[Delivery Provider Services]
+    AS[Administrator Services]
+    end
+
+    subgraph Core Services
+    UAM[User Account Management]
+    NS[Notification System]
+    PP[Payment Processing]
+    end
+
+    subgraph Integrations
+    AI[AI Integration]
+    MI[Map Integration]
+    EMI[Environmental Monitoring Integration]
+    end
+
+    subgraph Data Storage
+    GSD[Grower Services Data]
+    CSD[Consumer Services Data]
+    DPSD[Delivery Provider Services Data]
+    ASD[Administrator Services Data]
+    end
+
+    WA -->|Interacts with| AS
+    MA -->|Interacts with| GS
+    MA -->|Interacts with| CS
+    MA -->|Interacts with| DPS
+
+    GS -->|Event-driven communication| GSD
+    CS -->|Event-driven communication| CSD
+    DPS -->|Event-driven communication| DPSD
+    AS -->|Event-driven communication| ASD
+
+    UAM -->|Central to| GS
+    UAM -->|Central to| CS
+    UAM -->|Central to| DPS
+    UAM -->|Central to| AS
+
+    PP -->|Used by| GS
+    PP -->|Used by| CS
+    NS -->|Supports| AS
+    NS -->|Supports| GS
+    NS -->|Supports| CS
+    NS -->|Supports| DPS
+
+    AI -->|Used by| GS
+    AI -->|Used by| CS
+    MI -->|Used by| GS
+    MI -->|Used by| CS
+    EMI -->|Used by| GS
 
 ```
 
