@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harvesit.AdministratorServices.Api", "Harvesit.AdministratorServices.Api\Harvesit.AdministratorServices.Api.csproj", "{BBAB74E8-9A7A-4F31-9569-EFC1C8548B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harvesit.AdministratorServices.Core", "Harvesit.AdministratorServices.Core\Harvesit.AdministratorServices.Core.csproj", "{4FFE3C3B-759A-4EFA-85D2-AF6D3AB69DB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FDC17191-B279-4644-863E-CF91B58C17DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harvesit.AdministratorServices.CoreTests", "..\tests\Harvesit.AdministratorServices.CoreTests\Harvesit.AdministratorServices.CoreTests.csproj", "{302FA61C-8007-4C9C-9175-3A542C8A6969}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBAB74E8-9A7A-4F31-9569-EFC1C8548B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAB74E8-9A7A-4F31-9569-EFC1C8548B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAB74E8-9A7A-4F31-9569-EFC1C8548B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAB74E8-9A7A-4F31-9569-EFC1C8548B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFE3C3B-759A-4EFA-85D2-AF6D3AB69DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFE3C3B-759A-4EFA-85D2-AF6D3AB69DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFE3C3B-759A-4EFA-85D2-AF6D3AB69DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFE3C3B-759A-4EFA-85D2-AF6D3AB69DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302FA61C-8007-4C9C-9175-3A542C8A6969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302FA61C-8007-4C9C-9175-3A542C8A6969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302FA61C-8007-4C9C-9175-3A542C8A6969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302FA61C-8007-4C9C-9175-3A542C8A6969}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{302FA61C-8007-4C9C-9175-3A542C8A6969} = {FDC17191-B279-4644-863E-CF91B58C17DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {053B4BAE-DB4C-47B0-9876-B4B37084902E}
+	EndGlobalSection
+EndGlobal
