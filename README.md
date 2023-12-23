@@ -121,7 +121,7 @@ Part customizable farm box, part micro farmers market - Harvesit taps into hyper
 
 **Platform Administrators**
 
-1. Manage Crop Listings  
+1. Manage Crop Catalogs
    - Create, update, and delete crop types allowed to be listed
    
 2. Analytics Reporting
@@ -165,7 +165,7 @@ graph LR
     E --> F2
     E --> U
 
-    G[Platform Administrators] --> H1[Manage Crop Listings] 
+    G[Platform Administrators] --> H1[Manage Crop Catalogs] 
     G --> H2[Analytics Reporting]
     G --> U
 ```
