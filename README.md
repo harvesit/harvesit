@@ -365,7 +365,7 @@ graph LR
 
 12. **Cloud-Native Features**: Rely on Azure Cloud for cloud-native functionalities, including observability and security, to enhance application resilience and performance.
 
-13. **Database Solutionv: Leverage Azure Database for PostgreSQL, providing a robust, scalable, and managed relational database service.
+13. **Database Solution**: Leverage Azure Database for PostgreSQL, providing a robust, scalable, and managed relational database service.
 
 14. **API Management**: Utilize Azure API Management as a gateway between backend microservices and client applications, offering API protection and distributed caching for optimized performance and security.
 
