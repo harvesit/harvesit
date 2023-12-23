@@ -1,6 +1,6 @@
 ﻿namespace Harvesit.AdministratorServices.Core
 {
-    public class Class1
+    public class CropCatalogManagement
     {
 
     }
