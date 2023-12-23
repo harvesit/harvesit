@@ -131,10 +131,6 @@ Part customizable farm box, part micro farmers’ market - Harvesit taps into hy
    - Reporting on trends for different crops, geographies
    - Inform decisions around improving platform features and functionality
 
-# References
-- https://github.com/markdown-templates/markdown-emojis
-- https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams
-
 # Use Case Diagram
 ```mermaid
 graph LR
