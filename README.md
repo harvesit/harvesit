@@ -328,15 +328,15 @@ graph LR
 
 # First Principle Software Design
 
-1. Writing self-documenting code boosts team velocity/morale and reduces costs. Carefully naming and structure code to express intent. This facilitates future maintenance and evolution to meet changing business needs.
+1. **Expressive Code**: Favor intuitive, self-documenting code aligned to business logic. This reduces maintenance costs.
 
-2. Modular architecture enables flexible enhancement and scalability. Decompose software around business capabilities with stable interfaces that can scale independently. Optimize for current needs without overengineering. Balance meeting today's requirements with the ability to enhance later. Keep complexity manageable as capabilities expand over time.
+2. **Unified Technology Stack**: Standardize programming languages, platforms and tools to improve team productivity.
 
-3. Unify platforms/languages to maximize developer throughput. Eliminate context switching to enable deeper skill levels. This force multiplication means a unified team achieves greater velocity on strategic projects.
+3. **Domain-Driven Microservices**: Structure event-driven microservices around business domains for responsiveness.
 
-4. Automate testing/deployments to accelerate delivery and enhance quality. Shift developer focus towards writing business logic rather than manual QA/ops. The increased velocity and resilience pay continuous dividends.
+4. **Containerized Deployment**: Containerize applications for consistency across environments enabling quick scaling.
 
-5. Leverage cloud capabilities while sustaining core portability. Fully utilize managed services to increase productivity but loosely couple core logic from provider APIs. This focuses effort on valuable feature building rather than re-platforming. Prioritizing portable business logic delivers value quickly while retaining flexibility.
+5. **Automated Pipelines**: Implement automated testing and deployments for accelerated delivery at quality.
 
 ### Ultimately these principles aim to:
 - Cut costs by reducing maintenance needs
@@ -345,67 +345,32 @@ graph LR
 
 # Technology stack
 
-1. **Backend Services with .NET 8 and C# 12**: .NET 8 and C# 12 are excellent choices for backend development due to their robustness, scalability, and extensive community support. They also integrate seamlessly with other .NET ecosystem tools.
+1. **Backend Services**: Adopt C# 12 with .NET 8 for non-AI/ML backend services, ensuring modern, efficient, and robust server-side logic.
 
-2. **Web Applications with Blazor .NET 8**: Blazor is a good choice for web applications, particularly for teams already proficient in C# and .NET. It allows for sharing code between server and client sides, enhancing consistency.
+2. **Microservices and Workloads**: Implement Dapr.io version 1.12 with Dapr Workflow for backend APIs, background tasks, and AI/ML workloads, promoting scalable and resilient microservices architecture.
 
-3. **Mobile Applications with MAUI .NET 8**: MAUI is a versatile framework for developing cross-platform mobile applications. It aligns well with the principle of unifying platforms and tools.
+3. **AI and ML Programming**: Use Python 3.11 for AI and ML tasks, leveraging its vast ecosystem and libraries for advanced data processing and machine learning.
 
-4. **Dapr.io for Even-driven Microservice Architecture**: Dapr.io is an excellent choice for a cloud-agnostic, containerized microservice architecture. It supports modularity and scalability.
+4. **Backend Hosting**: Host Dapr backend applications on Azure Container Apps, benefiting from containerization and seamless scalability.
 
-5. **Azure Public Cloud**: Azure is a comprehensive cloud platform that supports the entire stack you’ve chosen. It offers a wide range of services and integrates well with .NET, Dapr, and other Microsoft technologies.
+5. **Web UI Development**: Utilize .NET 8 Blazor Full-stack UI workload for crafting the Platform Administrator's Web application, enabling a consistent and interactive user interface.
 
-6. **Python for AI and ML Workloads**: Python is the industry standard for AI and ML, offering extensive libraries and community support.
+6. **Web App Hosting**: Deploy Blazor web applications on Azure Web App, ensuring reliable and managed hosting services.
 
-7. **Azure RTOS and C++ for Embedded IoT Development**: Azure RTOS is a solid choice for real-time IoT applications, and C++ offers the performance needed for embedded systems.
+7. **Mobile App Development**: Utilize .NET 8 MAUI for mobile application development, offering a unified and cross-platform user experience.
 
-8. **GitHub for Code Repositories and CI/CD Pipelines**: GitHub is a robust platform for version control and CI/CD, facilitating collaboration and automation in line with your principles.
+8. **Source Control and CI/CD**: Integrate GitHub for code repositories and CI/CD pipelines, fostering collaborative development and automated workflows.
 
-9. **Azure CLI and Bicep for Infrastructure-as-Code (IaC)**: Azure CLI and Bicep are good choices for IaC, promoting automation and consistency in cloud resource management.
+9. **Infrastructure Management**: Apply Bicep and Azure CLI for Infrastructure-as-Code, enabling efficient, reproducible, and version-controlled infrastructure provisioning.
 
+10. **IoT Development**: Use C++ with Azure RTOS for Embedded IoT Development, ensuring high performance and real-time operations in IoT devices.
 
+11. **IoT Cloud Gateway**: Utilize Azure IoT Hub as the Cloud IoT Gateway, managing device communication and data ingestion effectively.
 
-### Notes
-- Solving a real problem for your user - rebuild local economy
-- Fall in love with a problem. Specific
-- Founder market fit - are you the right team to be working on this idea?
-- How big is the market?
-- How accute is this problem?
-- Do you have competition?
-- Do you want this personally and know someone what this?
-- Recently possible or recently necessary?
-- Are there good proxies for this business?
-- Is it a good idea space?
-- Look for things in the world that have changed recently that might have created for new opportunities
-- Look for big insdustries that seem broken - local economy, local community, local food supply
+12. **Cloud-Native Features**: Rely on Azure Cloud for cloud-native functionalities, including observability and security, to enhance application resilience and performance.
 
-## What is architecture?
+13. **Database Solutionv: Leverage Azure Database for PostgreSQL, providing a robust, scalable, and managed relational database service.
 
-- the shared understanding that the expert developers have of the system design.
-- “the design decisions that need to be made early in a project” (irrevesible design decision)
-- source: https://martinfowler.com/architecture/
+14. **API Management**: Utilize Azure API Management as a gateway between backend microservices and client applications, offering API protection and distributed caching for optimized performance and security.
 
-- It's all about business context and needs
-
-## How
-- Focus on the most important characteristics and requirements to create a system that works and can last a long time. (how to identity these things?)
-- Just enough upfront work
-- Business needs, context, needs in the future
-- Optimise for change. Architect for system with a need for change in mind.
-
-### Hi there 👋
-
-<!--
-**harvesit/harvesit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+15. **User Access Management**: Implement Azure AD B2C for robust user access management. It provides identity and access management solutions, allowing for secure user authentication and authorization across web and mobile applications.
