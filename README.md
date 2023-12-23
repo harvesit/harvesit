@@ -165,7 +165,7 @@ graph LR
     E --> F2
     E --> U
 
-    G[Platform Administrators] --> H1[Manage Crop Catalogs] 
+    G[Administrators] --> H1[Manage Crop Catalogs] 
     G --> H2[Analytics Reporting]
     G --> U
 ```
@@ -298,7 +298,7 @@ graph LR
     MS -.-> ROE
     U -.-> RTTS
 ```
-### Platform Administrator Component Diagram
+### Administrator Component Diagram
 ```mermaid
 graph LR
     AS[Administrator Services] --> LMS[Crop Catalog Management System]
