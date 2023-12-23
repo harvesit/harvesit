@@ -301,7 +301,7 @@ graph LR
 ### Platform Administrator Component Diagram
 ```mermaid
 graph LR
-    AS[Administrator Services] --> LMS[Listing Management System]
+    AS[Administrator Services] --> LMS[Crop Catalog Management System]
     AS --> UMS[User Management System]
     AS --> ARE[Analytics and Reporting Engine]
     AS --> SCAS[System Configuration and Settings]
