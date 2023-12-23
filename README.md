@@ -123,8 +123,6 @@ Part customizable farm box, part micro farmers’ market - Harvesit taps into hy
 
 1. Manage Produce Listings  
    - Create, update, delete produce types allowed to be listed
-   - Ensure listings meet guidelines before publishing 
-   - Remove inappropriate listings
    
 2. Analytics Reporting
    - Key metrics like number of users, listings, sales volumes and values  
