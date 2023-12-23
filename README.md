@@ -1,6 +1,6 @@
  # 🌱 Harvesit
 
-Harvesit is a digital service that connects backyard growers and small farms directly with local consumers - making ultra-fresh produce accessible via mobile app.
+Harvesit is a digital service that connects backyard growers and small farms directly with local consumers - making ultra-fresh crops accessible via mobile app.
 
 Growers list upcoming harvests from gardens, orchards and fields in their neighborhood. AI-powered crop planning tools provide personalized guidance on planting. Computer vision detects pests early and identifies deficiencies.
 
@@ -8,7 +8,7 @@ Shoppers browse area offerings through an interactive map interface. Order whate
 
 Payment and logistics are managed seamlessly by the platform. Community members can flex roles from consumer to grower to delivery driver. Two-way ratings and reviews cultivate trust and transparency.
 
-Part customizable farm box, part micro farmers’ market - Harvesit taps into hyperlocal harvests for maximum freshness. Reducing waste and emissions through smarter technology, shorter supply chains and stronger regional ties.
+Part customizable farm box, part micro farmers market - Harvesit taps into hyperlocal harvests for maximum freshness. Reducing waste and emissions through smarter technology, shorter supply chains and stronger regional ties.
 
 
 # :bulb: Why Harvesit? 
@@ -36,46 +36,46 @@ Part customizable farm box, part micro farmers’ market - Harvesit taps into hy
     - Create jobs beyond growing food 🧑‍💻
             
 - Cultivate the Next Generation of Farmers  
-    - Inspire and train future producers 👩‍🌾👨‍🌾
+    - Inspire and train future growers 👩‍🌾👨‍🌾
     - Share knowledge between generations 👵👦
 
 # ✨ Features
 
 **Growers**
 
-1. List Produce  
-   - Grower logs into app and creates listings for produce that will be ready for harvest
+1. List Crop
+   - Grower logs into the app and creates listings for crops that will be ready for harvest
    - Grower enters details like crop type, quantity available, expected harvest date, price, etc.   
-   - Once listed, produce is automatically searchable by consumers
+   - Once listed, crops are automatically searchable by consumers
    
-2. Sell Produce
-   - Grower changes listing status to "Ready for Sale" when crop is ready for harvest
-   - Payment is processed via app. Grower gets notified of new orders.
+2. Sell Crop
+   - Grower changes listing status to "Ready for Sale" when crops is ready for harvest
+   - Payment is processed via the app. Grower gets notified of new orders.
    
-3. Trade Produce
-   - Grower can propose a trade of their produce with other growers  
+3. Trade Crop
+   - Growers can propose a trade of their crop with other growers  
    - Other growers get notifications and can accept trade proposal
-   - Pickup/drop-off logistics are arranged between growers
+   - Pickup and drop-off logistics are arranged between growers
    
 4. Find Farm Supply Stores
    - Map view shows farm supply stores in nearby locations
-   - Growers can get directions, store hours, inventory availability etc.
+   - Growers can get directions, store hours, inventory availability, etc.
 
 5. Add Farm Supply Store
-   - Growers can add new farm supply stores by entering address  
-   - Added stores are pinned on map
+   - Growers can add new farm supply stores by entering an address  
+   - Added stores are pinned on the map
    
 6. Receive Buyer Tips
    - Consumers can provide monetary tips to growers during a sale 
-   - Tips are transferred to grower after successful delivery
+   - Tips are transferred to the grower after successful delivery
 
 7. Crop Planning Suggestions 
    - Grower enters details on farm size, crops grown
-   - AI algorithm provides personalized suggestions on optimal crops to grow based on soil type, climate etc.
+   - AI algorithm provides personalized suggestions on optimal crops to grow based on soil type, climate, etc.
    
 8. Crop Issue Detection
-   - Grower uploads plant photos through app
-   - Computer vision AI detects presence of disease, pests etc.
+   - Grower uploads plant photos through the app
+   - Computer vision AI detects the presence of disease, pests, etc.
    - Preventative advice is provided to grower if issues are found early
    
 9. Environmental Monitoring
@@ -85,44 +85,44 @@ Part customizable farm box, part micro farmers’ market - Harvesit taps into hy
    
 **Consumers**
 
-1. Search Produce
-   - Consumer enters produce type  
+1. Search Crop
+   - Consumer enters crop type  
    - Results show listings from nearby growers, sorted by harvest date  
-   - Map view shows locations of growers pinned to map
-   - Consumers can search by selecting area on map
+   - Map view shows locations of growers pinned to the map
+   - Consumers can search by selecting an area on the map
 
-2. Purchase Produce
-   - Consumer selects a listing and confirms order
-   - Payment processed via app. Grower is notified of the purchase. 
-   - Consumer coordinates pickup/delivery with the grower
+2. Purchase Crop
+   - Consumer selects a listing and confirms the order
+   - Payment processed via app. The grower is notified of the purchase. 
+   - Consumer coordinates pickup and delivery with the grower
    - Consumers can provide tips to growers 
 
 3. Healthy Recipe Suggestions
-   - Based on current and upcoming produce listings from nearby growers 
+   - Based on current and upcoming crop listings from nearby growers 
    - AI algorithm provides healthy, simple recipe ideas
    
 4. Rate and Review Growers
-   - Consumers provide 1-5 star ratings on quality, service etc.
+   - Consumers provide 1-5 star ratings on quality, service, etc.
    - Reviews are public and help inform other consumers
    
 **Delivery Providers**
 
 1. Accept Delivery Job
    - Same users who act as consumers or growers can also sign up as delivery providers  
-   - When a consumer purchases produce, nearby delivery providers get a notification 
-   - Delivery provider can accept the delivery job in the app
+   - When a consumer purchases a crop, nearby delivery providers get a notification 
+   - The delivery provider can accept the delivery job in the app
    
 2. Coordinate Pick-Up & Drop-Off
    - Accepting a job shares the grower's contact and location details
-   - Delivery provider coordinates schedule for picking up produce
-   - After pickup, delivery address is shown on map
-   - Status updates in real-time for consumer and grower
-   - Simple features to complete delivery when produce is handed off to consumer
+   - Delivery provider coordinates schedule for picking up crop
+   - After pickup, the delivery address is shown on the map
+   - Status updates in real-time for consumers and growers
+   - Simple features to complete delivery when the crop is handed off to the consumer
 
 **Platform Administrators**
 
-1. Manage Produce Listings  
-   - Create, update, delete produce types allowed to be listed
+1. Manage Crop Listings  
+   - Create, update, and delete crop types allowed to be listed
    
 2. Analytics Reporting
    - Key metrics like number of users, listings, sales volumes and values  
@@ -132,9 +132,9 @@ Part customizable farm box, part micro farmers’ market - Harvesit taps into hy
 # Use Case Diagram
 ```mermaid
 graph LR
-    A[Growers] --> B1[List Produce]
-    A --> B2[Sell Produce] 
-    A --> B3[Trade Produce]
+    A[Growers] --> B1[List Crop]
+    A --> B2[Sell Crop] 
+    A --> B3[Trade Crop]
     A --> B4[Find Farm Supply Stores]
     A --> B5[Add Farm Supply Store]
     B1 --> B6[Receive Buyer Tips]
@@ -143,7 +143,7 @@ graph LR
     A --> B9[Environmental Monitoring]
     B2 -->|Involves| P[Payment Processing]
     
-    B2 --> D2[Purchase Produce]
+    B2 --> D2[Purchase Crop]
     B3 --> A
     P --> D2
     
@@ -151,7 +151,7 @@ graph LR
     F2[Coordinate Pickup & Drop-off] --> A
     
     C[Consumers] --> U[User Registration/Authentication]
-    U --> D1[Search Produce]
+    U --> D1[Search Crop]
     C --> D2
     C --> D3[Healthy Recipe Suggestions]  
     C --> D4[Rate and Review Growers]
@@ -165,7 +165,7 @@ graph LR
     E --> F2
     E --> U
 
-    G[Platform Administrators] --> H1[Manage Produce Listings] 
+    G[Platform Administrators] --> H1[Manage Crop Listings] 
     G --> H2[Analytics Reporting]
     G --> U
 ```
@@ -235,7 +235,7 @@ graph LR
 ### Grower Services Component Diagram
 ```mermaid
 graph LR
-    GS[Grower Services] --> PLM[Produce Listing Manager]
+    GS[Grower Services] --> PLM[Crop Listing Manager]
     GS --> TMS[Trade Management System]
     GS --> SSL[Supply Store Locator]
     GS --> CAS[Crop Advisory System]
@@ -261,11 +261,11 @@ graph LR
 ### Consumer Services Component Diagram
 ```mermaid
 graph LR
-    CS[Consumer Services] --> PSE[Produce Search Engine]
+    CS[Consumer Services] --> PSE[Crop Search Engine]
     CS --> PMS[Purchase Management System]
     CS --> RSE[Recipe Suggestion Engine]
     CS --> RRS[Rating and Review System]
-    CS --> PTPS[Produce Tips Processing System]
+    CS --> PTPS[Crop Tips Processing System]
 
     PSE -->|Interacts with| DS[Data Storage]
     PMS -->|Interacts with| DS
@@ -328,11 +328,11 @@ graph LR
 
 3. **Domain-Driven Microservices**: Structure event-driven microservices around business domains for responsiveness.
 
-4. **Containerized Deployment**: Containerize applications for consistency across environments enabling quick scaling.
+4. **Containerized Deployment**: Containerize applications for consistency across environments, enabling quick scaling.
 
 5. **Automated Pipelines**: Implement automated testing and deployments for accelerated delivery at quality.
 
-### Ultimately these principles aim to:
+### Ultimately, these principles aim to:
 - Cut costs by reducing maintenance needs
 - Speed up how fast we can add new capabilities
 - Enable flexibility to adapt software in the future
