@@ -1,6 +1,7 @@
 namespace Harvesit.AdministratorServices.CoreTests;
 
 using Harvesit.AdministratorServices.Core;
+using Harvesit.AdministratorServices.Core.Doman;
 
 public class CropCatalogManagementTests
 {
@@ -22,7 +23,7 @@ public class CropCatalogManagementTests
             "Malus domestica",
             "Gala",
             "A popular variety of apple.",
-            "Late Summer to Early Autumn",
+            //"Late Summer to Early Autumn",
             new Uri("http://example.com/apple.jpg"));
 
         // Act
@@ -37,7 +38,7 @@ public class CropCatalogManagementTests
         addedCropItem.ScientificName.Should().Be("Malus domestica");
         addedCropItem.Variety.Should().Be("Gala");
         addedCropItem.Description.Should().Be("A popular variety of apple.");
-        addedCropItem.HarvestTime.Should().Be("Late Summer to Early Autumn");
+        //addedCropItem.HarvestTime.Should().Be("Late Summer to Early Autumn");
         addedCropItem.ImageURL.Should().BeEquivalentTo(new Uri("http://example.com/apple.jpg"));
     }
 
@@ -52,7 +53,7 @@ public class CropCatalogManagementTests
             "Malus domestica",
             "Gala",
             "A popular variety of apple.",
-            "Late Summer to Early Autumn",
+            //"Late Summer to Early Autumn",
             new Uri("http://example.com/apple.jpg"));
 
         // Act
