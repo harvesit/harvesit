@@ -1,9 +1,10 @@
-using Harvesit.AdministratorServices.Core.Infrastructure.Database;
+using Harvesit.AdministratorServices.Api.Endpoints;
+using Harvesit.AdministratorServices.Core.Application;
+using Harvesit.AdministratorServices.Core.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add Core services
-// Add Infrastructure services
+builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices(builder.Configuration);
 
 builder.Services.AddEndpointsApiExplorer();
@@ -18,5 +19,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.MapCropCatalogEndpoints();
 
 app.Run();

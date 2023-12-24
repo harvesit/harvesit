@@ -1,69 +1,53 @@
+namespace Harvesit.AdministratorServices.CoreTests.Application;
+
 using Harvesit.AdministratorServices.Core.Application;
 using Harvesit.AdministratorServices.Core.Doman;
 using Harvesit.AdministratorServices.Core.Infrastructure.Database.Repositories;
 
-namespace Harvesit.AdministratorServices.CoreTests.Application;
-
-public class CropCatalogManagementTests : IDisposable
+public class CropCatalogManagementTests
 {
-    private readonly ICropCatalogItemRepository _mockRepository;
-    private readonly CropCatalogManagement _cropCatalogManagement;
+    private readonly ICropCatalogItemRepository _repository;
+    private readonly CropCatalogManagement _catalogManagement;
 
     public CropCatalogManagementTests()
     {
-        // Create mock repository
-        _mockRepository = Substitute.For<ICropCatalogItemRepository>();
-
-        // Create CropCatalogManagement with the mock repository
-        _cropCatalogManagement = new CropCatalogManagement(_mockRepository);
+        _repository = Substitute.For<ICropCatalogItemRepository>();
+        _catalogManagement = new CropCatalogManagement(_repository);
     }
 
     [Fact]
     public async Task AddNewCropCatalogItem_WithValidData_ShouldAddSuccessfully()
     {
         // Arrange
-        var cancellationToken = CancellationToken.None;
-        var newCropItem = new CropCatalogItem(
-            Guid.NewGuid(), "Wheat", "Triticum aestivum", "Variety A",
-            "Agricultural crop used for food production.", new Uri("https://example.com/wheat.jpg"));
-
-        // Set up the behavior of the mock repository
-        _mockRepository.GetByIdAsync(Arg.Any<Guid>()).Returns(Task.FromResult<CropCatalogItem>(null)); // Simulate no existing item
-        _mockRepository.AddAsync(Arg.Any<CropCatalogItem>()).Returns(Task.CompletedTask);
+        var newCropItem = new CropCatalogItem(Guid.NewGuid(), "Apple", "Malus domestica", "Fuji", "A sweet apple", new Uri("http://example.com/apple.jpg"));
+        _repository.GetByIdAsync(newCropItem.Id).Returns(Task.FromResult<CropCatalogItem>(null));
 
         // Act
-        await _cropCatalogManagement.AddCropItem(newCropItem, cancellationToken);
+        Func<Task> act = async () => await _catalogManagement.AddCropItem(newCropItem, CancellationToken.None);
 
         // Assert
-        await _mockRepository.Received(1).AddAsync(Arg.Is<CropCatalogItem>(item =>
-            item.Id == newCropItem.Id &&
-            item.Name == newCropItem.Name
-            // Add more property checks here
-        ));
+        await act.Should().NotThrowAsync();
+        await _repository.Received(1).AddAsync(Arg.Is<CropCatalogItem>(item => item.Id == newCropItem.Id));
     }
 
     [Fact]
     public async Task AddNewCropCatalogItem_WithValidData_ShouldPassValidation()
     {
         // Arrange
-        var cancellationToken = CancellationToken.None;
-        var newCropItem = new CropCatalogItem(
-            Guid.NewGuid(), "Corn", "Zea mays", null,
-            "Agricultural crop used for various purposes.", new Uri("https://example.com/corn.jpg"));
-
-        // Set up the behavior of the mock repository
-        _mockRepository.GetByIdAsync(Arg.Any<Guid>()).Returns(Task.FromResult<CropCatalogItem>(null)); // Simulate no existing item
-        _mockRepository.AddAsync(Arg.Any<CropCatalogItem>()).Returns(Task.CompletedTask);
+        var newCropItem = new CropCatalogItem(Guid.NewGuid(), "Orange", "Citrus sinensis", "Valencia", "A juicy orange", new Uri("http://example.com/orange.jpg"));
+        _repository.GetByIdAsync(newCropItem.Id).Returns(Task.FromResult<CropCatalogItem>(null));
 
         // Act
-        Func<Task> action = async () => await _cropCatalogManagement.AddCropItem(newCropItem, cancellationToken);
+        await _catalogManagement.AddCropItem(newCropItem, CancellationToken.None);
 
         // Assert
-        await action.Should().NotThrowAsync<Exception>(); // Ensure no exceptions are thrown
-    }
-
-    public void Dispose()
-    {
-        // Cleanup resources if needed
+        newCropItem.Id.Should().NotBe(Guid.Empty);
+        newCropItem.Name.Should().NotBeNullOrEmpty();
+        newCropItem.ScientificName.Should().NotBeNullOrEmpty();
+        newCropItem.Variety.Should().NotBeNullOrEmpty();
+        newCropItem.Description.Should().NotBeNullOrEmpty();
+        newCropItem.ImageURL.Should().NotBeNull();
+        newCropItem.ImageURL.IsAbsoluteUri.Should().BeTrue();
     }
 }
+

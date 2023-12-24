@@ -3,7 +3,13 @@
 using Harvesit.AdministratorServices.Core.Doman;
 using Harvesit.AdministratorServices.Core.Infrastructure.Database.Repositories;
 
-public class CropCatalogManagement
+public interface ICropCatalogManagement
+{
+    Task AddCropItem(CropCatalogItem newCropItem, CancellationToken cancellationToken);
+    Task<CropCatalogItem> GetCropItemByIdAsync(Guid cropItemId);
+}
+
+public class CropCatalogManagement : ICropCatalogManagement
 {
     private readonly ICropCatalogItemRepository _cropCatalogItemRepository;
 

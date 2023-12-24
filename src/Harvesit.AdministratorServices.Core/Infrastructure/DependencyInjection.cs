@@ -1,8 +1,12 @@
-﻿namespace Harvesit.AdministratorServices.Core.Infrastructure.Database;
+﻿namespace Harvesit.AdministratorServices.Core.Infrastructure;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
+using Harvesit.AdministratorServices.Core.Infrastructure.Database;
+using Harvesit.AdministratorServices.Core.Infrastructure.Database.Repositories;
+
 
 public static class DependencyInjection
 {
@@ -14,6 +18,10 @@ public static class DependencyInjection
                 configuration.GetConnectionString("DefaultConnection"),
                 x => x.MigrationsAssembly("Harvesit.AdministratorServices.Infrastructure"));
         });
+
+        services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
+        services.AddScoped<ICropCatalogItemRepository, CropCatalogItemRepository>();
+
         return services;
     }
 }

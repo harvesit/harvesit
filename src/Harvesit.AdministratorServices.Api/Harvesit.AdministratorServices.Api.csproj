@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Harvesit.AdministratorServices.Contract\Harvesit.AdministratorServices.Contract.csproj" />
     <ProjectReference Include="..\Harvesit.AdministratorServices.Core\Harvesit.AdministratorServices.Core.csproj" />
   </ItemGroup>
 
