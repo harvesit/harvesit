@@ -1,6 +1,6 @@
  # 🌱 Harvesit
 
-Harvesit is a digital service that connects backyard growers and small farms directly with local consumers - making ultra-fresh crops accessible via mobile app.
+Harvesit is a digital platform that connects backyard growers and small farms directly with local consumers - making ultra-fresh crops accessible via mobile app.
 
 Growers list upcoming harvests from gardens, orchards and fields in their neighborhood. AI-powered crop planning tools provide personalized guidance on planting. Computer vision detects pests early and identifies deficiencies.
 
