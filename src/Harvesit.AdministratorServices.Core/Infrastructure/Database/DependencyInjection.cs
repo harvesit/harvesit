@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿namespace Harvesit.AdministratorServices.Core.Infrastructure.Database;
+
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
-namespace Harvesit.AdministratorServices.Infrastructure;
 
 public static class DependencyInjection
 {

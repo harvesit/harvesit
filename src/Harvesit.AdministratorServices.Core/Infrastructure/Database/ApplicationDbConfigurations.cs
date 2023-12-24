@@ -1,4 +1,4 @@
-﻿namespace Harvesit.AdministratorServices.Infrastructure;
+﻿namespace Harvesit.AdministratorServices.Core.Infrastructure.Database;
 
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;

@@ -35,8 +35,9 @@ docker network inspect harvesit-db-network
 
 ```bash
 dotnet tool install --global dotnet-ef
-dotnet add package Microsoft.EntityFrameworkCore.Design (host project)
-dotnet add package Microsoft.EntityFrameworkCore.Tools (ef project)
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL (core)
+dotnet add package Microsoft.EntityFrameworkCore.Tools (core)
+dotnet add package Microsoft.EntityFrameworkCore.Design (api)
 dotnet ef migrations add InitialCreate --project ..\Harvesit.AdministratorServices.Infrastructure\Harvesit.AdministratorServices.Infrastructure.csproj (host project)
 dotnet ef database update (host project)
 ```
