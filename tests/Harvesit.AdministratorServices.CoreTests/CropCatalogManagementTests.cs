@@ -12,11 +12,11 @@ public class CropCatalogManagementTests
     }
 
     [Fact]
-    public void AddNewCropItem_WithValidData_ShouldAddSuccessfully()
+    public void AddNewCropCatalogItem_WithValidData_ShouldAddSuccessfully()
     {
         // Arrange
         var newCropItemId = Guid.NewGuid();
-        var newCropItem = new CropItem(
+        var newCropItem = new CropCatalogItem(
             newCropItemId,
             "Apple",
             "Malus domestica",
@@ -42,11 +42,11 @@ public class CropCatalogManagementTests
     }
 
     [Fact]
-    public void AddNewCropItem_WithValidData_ShouldPassValidation()
+    public void AddNewCropCatalogItem_WithValidData_ShouldPassValidation()
     {
         // Arrange
         var validCropItemId = Guid.NewGuid();
-        var validCropItem = new CropItem(
+        var validCropItem = new CropCatalogItem(
             validCropItemId,
             "Apple",
             "Malus domestica",
