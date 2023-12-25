@@ -41,3 +41,8 @@ dotnet add package Microsoft.EntityFrameworkCore.Design (api)
 dotnet ef migrations add InitialCreate --project ..\Harvesit.AdministratorServices.Infrastructure\Harvesit.AdministratorServices.Infrastructure.csproj (host project)
 dotnet ef database update (host project)
 ```
+
+### Run with Dapr
+```bash
+dapr run --app-id administratorservices-api dotnet run
+```
